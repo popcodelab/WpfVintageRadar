@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Images\RadarItems\airline.png" />
+    <None Remove="Assets\Images\RadarItems\airplane.png" />
+    <None Remove="Assets\Images\RadarItems\Commercial.png" />
+    <None Remove="Assets\Images\RadarItems\fighterjet.png" />
+    <None Remove="Assets\Images\RadarItems\helicopter.png" />
+    <None Remove="Assets\Images\screw_head.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WpfVintageRadar.Shapes\WpfVintageRadar.Shapes.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Images\RadarItems\airline.png" />
+    <Resource Include="Assets\Images\RadarItems\airplane.png" />
+    <Resource Include="Assets\Images\RadarItems\Commercial.png" />
+    <Resource Include="Assets\Images\RadarItems\fighterjet.png" />
+    <Resource Include="Assets\Images\RadarItems\helicopter.png" />
+    <Resource Include="Assets\Images\screw_head.png" />
+  </ItemGroup>
+
+</Project>

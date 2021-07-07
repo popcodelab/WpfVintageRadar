@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Storyboard x:Key="OpenSettingsButtonRotationStoryBoard">
+
+        <DoubleAnimation Storyboard.TargetName="OpenSettingsButtonRotation"
+                         Storyboard.TargetProperty="(RotateTransform.Angle)"
+                         From="0" To="360" Duration="0:0:0.5"/>
+    </Storyboard>
+    <Storyboard x:Key="CloseSettingsButtonRotationStoryBoard">
+        <DoubleAnimation Storyboard.TargetName="CloseSettingsButtonRotation"
+                         Storyboard.TargetProperty="(RotateTransform.Angle)"
+                         From="360" To="0" Duration="0:0:1.1"/>
+    </Storyboard>
+</ResourceDictionary>
